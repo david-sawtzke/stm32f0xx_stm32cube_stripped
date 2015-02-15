@@ -110,5 +110,5 @@ flash: all
 	-c "reset run" -c shutdown
 
 clean:
-	$(RM) $(OBJS) $(PROJ_NAME).elf
+	$(RM) $(OBJS) $(PROJ_NAME).elf $(PROJ_NAME).map 
 
