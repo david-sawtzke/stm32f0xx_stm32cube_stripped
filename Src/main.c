@@ -7,7 +7,7 @@ static void SystemClock_Config(void);
 
 int main(void)
 {
-  /* This sample code shows how to use GPIO HAL API to toggle LED2 IOs
+  /* This sample code shows how to use GPIO HAL API to toggle an led
     in an infinite loop. */
 
   /* STM32F0xx HAL library initialization:
